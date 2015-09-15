@@ -63,3 +63,16 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 * <a href="http://nicoledominguez.com/portfolio/">http://nicoledominguez.com/portfolio/</a>
 * <a href="http://www.roxannecook.com/">http://www.roxannecook.com/</a>
 * <a href="http://www.84colors.com/portfolio.html">http://www.84colors.com/portfolio.html</a>
+
+
+### Steps taken to optimize
+
+* In index.html, embedding css,remove unrelated css in critical path,compressed css in style.css file.
+* In index.html, remove unused import of google font.
+* In index.hmtl, google;s analytics.js is marked to load asychronously.
+* In index.html, script of using google analytic.js is put at the end of document.
+* In index.html, reduce size of pizzeria.jpg and profilepic.jpg
+* In main.js,  rewrite changePizzaSizes function and directly assign each pizza container with a new width in percentage.
+* In main.js, replace document.getElementByClassName instead of document.querySelectAll.
+* In main.js, cache document.body.scrollTop in updatePositions which is going to use in loop.
+* In main.js , reduce the number of pizza need to fill in screen.
