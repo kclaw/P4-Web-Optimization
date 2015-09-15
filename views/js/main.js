@@ -424,7 +424,7 @@ var resizePizzas = function(size) {
 
   // Iterates through pizza elements on the page and changes their widths
   function changePizzaSizes(size) {
-    var elements = document.getElementByClassName("randomPizzaContainer");
+    var elements = document.getElementsByClassName("randomPizzaContainer");
     //change each pizza container to a new width by percentage
     var newsize = size=='1'?'25%':size=='2'?'33.33%':size=='3'?'50%':null;
     for(var i=0,len=elements.length;i<len;i++){
