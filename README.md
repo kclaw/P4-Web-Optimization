@@ -69,7 +69,7 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 
 * In index.html, embedding css,remove unrelated css in critical path,compressed css in style.css file.
 * In index.html, remove unused import of google font.
-* In index.hmtl, google;s analytics.js is marked to load asychronously.
+* In index.hmtl, google's analytics.js is marked to load asychronously.
 * In index.html, script of using google analytic.js is put at the end of document.
 * In index.html, reduce size of pizzeria.jpg and profilepic.jpg
 * In main.js,  rewrite changePizzaSizes function and directly assign each pizza container with a new width in percentage.
