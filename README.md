@@ -73,6 +73,6 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 * In index.html, script of using google analytic.js is put at the end of document.
 * In index.html, reduce size of pizzeria.jpg and profilepic.jpg
 * In main.js,  rewrite changePizzaSizes function and directly assign each pizza container with a new width in percentage.
-* In main.js, replace document.getElementByClassName instead of document.querySelectAll.
+* In main.js, replace document.querySelectAll by document.getElementByClassName.
 * In main.js, cache document.body.scrollTop in updatePositions which is going to use in loop.
 * In main.js , reduce the number of pizzas need to fill in screen.
